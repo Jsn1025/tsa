@@ -1,19 +1,24 @@
-
 /* STYLE SECTIONING TAGS */
 body {
- background-color: #cef7b7; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #cef7b7; 
 }
 
 /* STYLE TEXT */
-
 h1 {
   color: black;
-  }
-
-h1, h2, h3, h4, h5, h6{
-  margin-top:1px;
-  margin-bottom:1px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -55,19 +60,6 @@ h1, h2, h3, h4, h5, h6{
   background-color: #edede9;
   color: white;
 }
-}
-
-
-/* styles.css */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
-}
 
 .button-container {
   display: flex;
@@ -93,8 +85,3 @@ body {
   color: #000;
   transform: translateY(-2px);
 }
-
-
-
-/* STYLE IMAGES */
-/* STYLE NAV BAR */
