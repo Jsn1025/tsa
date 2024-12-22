@@ -54,7 +54,17 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #edede9;
   color: white;
 }
+}
 
+body {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
 .button-container {
   display: flex;
   gap: 40px; /* Increased space between buttons */
